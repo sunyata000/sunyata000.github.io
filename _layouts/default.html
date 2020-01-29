@@ -21,22 +21,22 @@
         {% endif %}
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
-           
-	   <a href="{{ "/" | absolute_url }}"<h2><首页></h2></a> >
-	   <a href="/docs/about.md"<h2><关于></h2></a> >
-	   <a href="/docs/download.md"<h2><下载></h2></a> >
-           <a href="/docs/download.md"<h2><留言></h2></a>
-	
+           <h2>
+	   <a href="{{ "/" | absolute_url }}"首页</a>
+	   <a href="/docs/about.md" 关于</a>
+	   <a href="/docs/download.md" 下载</a>
+           <a href="/docs/download.md" 留言</a>
+	</h2>
       </header>
       <section>
 
       {{ content }}
-         <p><h2>
-	   <a href="{{ "/" | absolute_url }}"首页</a> >
-	   <a href="/docs/about.md"<h2>关于</a> >
-	   <a href="/docs/download.md"下载</a> >
-           <a href="/docs/download.md"留言</a> 
-       </p></h2>
+         
+	   <a href="{{ "/" | absolute_url }}"[ 首页 ]</a>
+	   <a href="/docs/about.md"<h2>  [ 关于 ]</a>
+	   <a href="/docs/download.md"  [ 下载 ]</a>
+           <a href="/docs/download.md"  [ 留言 ]</a> 
+    
 	      
 	  
       </section>
