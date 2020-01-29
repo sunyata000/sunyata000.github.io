@@ -6,7 +6,7 @@ google_analytics:
 theme: jekyll-theme-minimal
 
 footer-links:
-  email:752855220@qq.com
+  email: 752855220@qq.com
   github: sunyata000
 
 gitalk:
