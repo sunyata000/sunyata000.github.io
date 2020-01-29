@@ -5,7 +5,7 @@ show_downloads: true
 google_analytics:
 theme: jekyll-theme-minimal
 
-foot-links:
+footer-links:
   email:752855220@qq.com
   zhihu: PODES
   github: sunyata000
