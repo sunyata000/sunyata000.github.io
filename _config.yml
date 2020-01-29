@@ -1,7 +1,7 @@
 title: 开源MCU Core IP 项目
 logo: /assets/img/logo.png
 description: PODES最完整的技术文档都在这里
-show_downloads: true
+show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
 
