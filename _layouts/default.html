@@ -14,48 +14,35 @@
   <body>
     <div class="wrapper">
       <header>
-        <h2><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h2>
+        <h2><p> {{ site.title | default: site.github.repository_name }}</p></h2>
         
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
-
-        {% if site.github.is_project_page %}
-        <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
-        {% endif %}
-
-        {% if site.github.is_user_page %}
-        <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
-        {% endif %}
-
-        {% if site.show_downloads %}
-        <ul class="downloads">
-          <li><a href="http://www.mcucore.club/docs/AMY_M0O.zip">Download <strong>ZIP File</strong></a></li>
-          <li><a href="http://www.mcucore.club/docs/">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
-        </ul>
-        {% endif %}
+           
+	   <a href="{{ "/" | absolute_url }}"<h2>首页</h2></a> >
+	   <a href="/docs/about.md"<h2>关于</h2></a> >
+	   <a href="/docs/download.md"<h2>下载</h2></a> >
+           <a href="/docs/download.md"<h2>留言</h2></a>
 	
-	
-	<ul class="downloads">      
-		<li><p class="view"><a href="/docs/PODES_M0O_src.zip">PODES-M0O Source Code</a></p></li>
-	</ul>
       </header>
       <section>
 
       {{ content }}
-      <a href="/docs/about.md"<h3>关于 </h3></a> <a href="/docs/about.md"<h3>关于 </h3></a> <a href="/docs/download.md"<h3>下载 </h3></a>
+      <a href="{{ "/" | absolute_url }}"<h2>首页</h2></a> >
+	   <a href="/docs/about.md"<h2>关于</h2></a> >
+	   <a href="/docs/download.md"<h2>下载</h2></a> >
+           <a href="/docs/download.md"<h2>留言</h2></a> 
+
 	      
 	  
       </section>
       <footer>
-        {% if site.github.is_project_page %}
-        <p>Maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
-        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+       <h3><p>参考链接</p></h3>
+         <p>My Github <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>
+	 <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/pages-themes/minimal">jekll-theme</a></small></p>
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
