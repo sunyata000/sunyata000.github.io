@@ -1,6 +1,17 @@
-title: Minimal theme
+title: 开源的MCU Core IP 项目
 logo: /assets/img/logo.png
-description: Minimal is a theme for GitHub Pages.
+description: PODES所有相关资料都可以从这里找到
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-minimal
+
+foot-links:
+  email:752855220@qq.com
+  zhihu: PODES
+  github: sunyata000
+
+gitalk:
+  clientID: <99b0e931d81456d48cf3>
+  clientSecret: <21a5501f4e588e3f133ea94d67e21057e8332dc4>
+  repo: <sunyata000.github.io>
+  owner: <sunyata000>  
