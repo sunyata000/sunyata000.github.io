@@ -6,7 +6,7 @@ Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
 
-[AMY_M0o 介绍](../docs/AMY_M0O.md).
+[AMY_M0o 介绍](../docs/AMY_M0O.html).
 
 There should be whitespace between paragraphs.
 
