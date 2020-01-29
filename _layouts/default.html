@@ -22,27 +22,28 @@
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
            
-	   <a href="{{ "/" | absolute_url }}"<h2>首页</h2></a> >
-	   <a href="/docs/about.md"<h2>关于</h2></a> >
-	   <a href="/docs/download.md"<h2>下载</h2></a> >
-           <a href="/docs/download.md"<h2>留言</h2></a>
+	   <a href="{{ "/" | absolute_url }}"<h2><首页></h2></a> >
+	   <a href="/docs/about.md"<h2><关于></h2></a> >
+	   <a href="/docs/download.md"<h2><下载></h2></a> >
+           <a href="/docs/download.md"<h2><留言></h2></a>
 	
       </header>
       <section>
 
       {{ content }}
-      <a href="{{ "/" | absolute_url }}"<h2>首页</h2></a> >
-	   <a href="/docs/about.md"<h2>关于</h2></a> >
-	   <a href="/docs/download.md"<h2>下载</h2></a> >
-           <a href="/docs/download.md"<h2>留言</h2></a> 
-
+         <p><h2>
+	   <a href="{{ "/" | absolute_url }}"首页</a> >
+	   <a href="/docs/about.md"<h2>关于</a> >
+	   <a href="/docs/download.md"下载</a> >
+           <a href="/docs/download.md"留言</a> 
+       </p></h2>
 	      
 	  
       </section>
       <footer>
        <h3><p>参考链接</p></h3>
-         <p>My Github <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>
-	 <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/pages-themes/minimal">jekll-theme</a></small></p>
+	<p>My Github <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+	<p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/pages-themes/minimal">jekll-theme</a></small></p>
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
