@@ -3,11 +3,10 @@ logo: /assets/img/logo.png
 description: PODES最完整的技术文档都在这里
 show_downloads: false
 google_analytics:
-theme: jekyll-theme-hacker
+theme: jekyll-theme-minimal
 
 footer-links:
   email:752855220@qq.com
-  zhihu: PODES
   github: sunyata000
 
 gitalk:
