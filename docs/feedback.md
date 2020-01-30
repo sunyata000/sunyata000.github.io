@@ -6,4 +6,4 @@ layout: default
 
 _yay_
 
-[back](../index.html)
+[back](https://sunyata000.github.io/index.html)
