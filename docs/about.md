@@ -28,4 +28,4 @@ layout: default
 <br>
 <br>
 
-[back](./)
+[back](../)
