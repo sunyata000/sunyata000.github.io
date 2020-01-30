@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+   
+	  
 {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     <!--[if lt IE 9]>
@@ -13,45 +14,33 @@
   </head>
   <body>
     <div class="wrapper">
-      <header>
-        <h2><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h2>
-        
-        {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
-        {% endif %}
-
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
-
-        {% if site.github.is_project_page %}
-        <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
-        {% endif %}
-
-        {% if site.github.is_user_page %}
-        <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
-        {% endif %}
-
-        {% if site.show_downloads %}
-        <ul class="downloads">
-          <li><a href="http://www.mcucore.club/docs/AMY_M0O.zip">Download <strong>ZIP File</strong></a></li>
-          <li><a href="http://www.mcucore.club/docs/">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
-        </ul>
-        {% endif %}
+      <header>     
+        &emsp;<p> {{ site.title | default: site.github.repository_name }}</p>
+        <img src="{{site.logo | relative_url}}" alt="Logo" />
+        <p>{{ site.description }}</p>
+        <h2>   
+	   <a href="{{ "/" | absolute_url }}">首页</a>
+	   &emsp;<a href="/docs/about.md">关于</a>
+	   &emsp;<a href="/docs/download.md">下载</a>
+           &emsp;<a href="/docs/feedback.md">留言</a>
+	</h2>
       </header>
       <section>
 
       {{ content }}
-	  <h2><p>资源下载 </p></h2>
-      <p class="view"><a href=""http://www.mcucore.club/docs/PODES_M0O_src.zip">PODES-M0O Source Code</a></p>
-      <p class="view"><a href=""http://www.mcucore.club/docs/PODES_M0O_Implementation_User_Manual_V1p2.pdf">PODES-M0O Implementation User Manual Ver1.2</a></p>
-	  
+        <div style="padding:1px;background-color:#727272;height:1px;"> 
+	<ul class="xspeng" >   
+                <li> <a href="/docs/feedback.md">留言</a></li>
+	        <li> <a href="/docs/download.md">下载</a></li>
+	        <li> <a href="/docs/about.md">关于</a></li>
+		<li> <a href="{{ "/" | absolute_url }}">首页</a></li>
+        </ul>     
+		 
       </section>
       <footer>
-        {% if site.github.is_project_page %}
-        <p>Maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
-        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+       <h4><p>参考链接</p></h4>
+	<p>My Github <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+	<p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/pages-themes/minimal">jekll-theme</a></small></p>
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
