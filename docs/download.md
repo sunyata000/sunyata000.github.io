@@ -3,13 +3,12 @@ layout: default
 ---
 
 ## [PODES-M0O] 
-  
+以下zip文件包括PODES-M0O全部Verilog源代码及文档。  
 *   PODES-M0O 1.0.0 .zip   (2020-01-01) \[69674B\] [点击下载](./PODES_M0O_src.zip)
 *   ...
 
 * * *
-
-以上zip文件包括PODES-M0O全部Verilog源代码及文档。如果只需要单独下载最新IP 文档，请选择：
+如果只需要单独下载最新IP 文档，请选择：
 *   PODES_M0O_Implementation_User_Manual_V1p2.zip  (2020-01-01) \[862165B\] [点击下载](./PODES_M0O_Implementation_User_Manual_V1p2.zip)
 
 更多历史版本：[请参考我的github](https://github.com/sunyata000)
@@ -18,12 +17,11 @@ layout: default
 <br>
  
 ## [AMY-M0O] 
-
+AMY-M0O是PODES-M0O的一个MCU实例，提供RTL仿真，应用程序开发等相关资料。文件包括AMY-M0O全部Verilog源代码，Firmware源代码以及相关文档。以下资料免费分发给购买FPGA评估板的用户。
 *   AMY-M0O 1.0.0 .zip   (2020-01-01) \[69674B\] [点击下载](./AMY_M0O_src.zip)
 *   ...
 
 ***
-AMY-M0O是PODES-M0O的一个MCU实例，提供RTL仿真，应用程序开发等相关资料。文件包括AMY-M0O全部Verilog源代码，Firmware源代码以及相关文档。以上资料免费分发给购买FPGA评估板的用户。
 如果只需要单独下载最新说明文档，请选择：
 *   PODES_M0O_Application_User_Manual_V1p0.zip  (2020-01-01) \[820175B\] [点击下载](./PODES_M0O_Application_User_Manual_V1p0.zip)  
 <br>
