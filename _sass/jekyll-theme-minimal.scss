@@ -111,6 +111,36 @@ header {
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
+
+ul.xspeng {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+}
+
+.xspeng li {
+    float: right;
+}
+
+.xspeng a {
+    color: #267CB9;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+.xspeng a:hover:not(.active) {
+    background-color: #ddd;
+	  color:#069;
+    font-weight: bold;
+}
+
+.xspeng a.active {
+    color: white;
+    background-color: #077;
+}
+
 ul.downloads {
   list-style:none;
   height:40px;
