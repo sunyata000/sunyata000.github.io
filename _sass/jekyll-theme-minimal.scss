@@ -116,7 +116,9 @@ ul.xspeng {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #f3f3f3;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .xspeng li {
@@ -126,7 +128,7 @@ ul.xspeng {
 .xspeng a {
     color: #267CB9;
     text-align: center;
-    padding: 10px 16px;
+    padding: 0px 8px;
     text-decoration: none;
 }
 
