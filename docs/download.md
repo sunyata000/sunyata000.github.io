@@ -1,9 +1,9 @@
 ---
 layout: default
 ---
-<div style="padding:1px;background-color:#727272;height:1px;">
+
 ## [PODES-M0O] 
-<div style="padding:1px;background-color:#727272;height:1px;">
+  
 *   PODES-M0O 1.0.0 .zip   (2020-01-01) \[69674B\] [点击下载](./PODES_M0O_src.zip)
 *   ...
 
@@ -16,9 +16,9 @@ layout: default
 <br>
 <br>
 <br>
-<div style="padding:1px;background-color:#727272;height:1px;">
+ 
 ## [AMY-M0O] 
-<div style="padding:1px;background-color:#727272;height:1px;">
+
 *   AMY-M0O 1.0.0 .zip   (2020-01-01) \[69674B\] [点击下载](./AMY_M0O_src.zip)
 *   ...
 
@@ -29,9 +29,9 @@ AMY-M0O是PODES-M0O的一个MCU实例，提供RTL仿真，应用程序开发等�
 <br>
 <br>
 <br>
-<div style="padding:1px;background-color:#727272;height:1px;">
+
 ## [FPGA评估板]
-<div style="padding:1px;background-color:#727272;height:1px;">  
+  
 此FPGA评估板专为评估PODES系列MCU开发。以下资料为硬件板的原理图，PCB Layout以及使用说明文档。
 *   PODES-M0O_FPGA_ EVAL_Board_SCH.pdf    (2013-10-23) \[43KB\] [下载] 
 *   PODES-M0O_FPGA_ EVAL_Board_PCB.pdf    (2013-10-23) \[43KB\] [下载]
