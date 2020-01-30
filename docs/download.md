@@ -12,7 +12,7 @@ layout: default
 以上zip文件包括PODES-M0O全部Verilog源代码及文档。如果只需要单独下载最新IP 文档，请选择：
 *   PODES_M0O_Implementation_User_Manual_V1p2.zip  (2020-01-01) \[862165B\] [点击下载](./PODES_M0O_Implementation_User_Manual_V1p2.zip)
 
-更多历史版本：请参考我的[github](https://github.com/sunyata000)
+更多历史版本：[请参考我的github](https://github.com/sunyata000)
 <br>
 <br>
 <br>
