@@ -29,11 +29,13 @@
 
       {{ content }}
          <div style="padding:1px;background-color:#727272;height:1px;">
-	   &emsp;<a href="{{ "/" | absolute_url }}">首页</a>
-	   &emsp;&emsp;<a href="/docs/about.md">关于</a>
-	   &emsp;&emsp;<a href="/docs/download.md">下载</a>
-           &emsp;&emsp;<a href="/docs/feedback.md">留言</a>
-	      
+	<ul>   
+		<li> <a href="{{ "/" | absolute_url }}">首页</a></li>
+	        <li> <a href="/docs/about.md">关于</a></li>
+	        <li> <a href="/docs/download.md">下载</a></li>
+                <li> <a href="/docs/feedback.md">留言</a></li>
+        </ul>     
+		 
       </section>
       <footer>
        <h4><p>参考链接</p></h4>
