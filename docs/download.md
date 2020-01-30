@@ -5,7 +5,7 @@ layout: default
 ## [PODES-M0O] 
 
 *   PODES-M0O 1.0.0 .zip   (2020-01-01) \[69674B\] [download](./PODES_M0O_src.zip)
-*   <button type="button" id="btn" class="btn btn-default"><a   href="/PODES_M0O_src.zip" download="下载"></a>下载</button>
+*   <button type="button" id="btn" class="btn btn-default"><a   href="/docs/PODES_M0O_src.zip" download="下载"></a>下载</button>
 
 * * *
 
