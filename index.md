@@ -11,9 +11,11 @@ layout: default
 PODES-M0O是一个经过专门精简优化的MCU CORE，定位于学习和研究。把他应用在一般的FPGA产品中没有问题，用于ASIC实现则需要一些额外的设计修改工作。PODES-M0O可以用于前期可行性评估。<br>
 ### AMY_M0O 
 本项目使用一个工程实例（AMY_M0O）来介绍PODES-M0O的应用及开发过程。主要目标对象为：个人学习者。尤其是那些具备一定的基础知识，准备涉足SoC设计和应用的人员。比如逻辑设计工程师、在校学生等等。<br>
+### AMY_FPGA 
+是专门为评估PODES系列MCU开发的FPGA验证板模块以及配套的小工具。硬件之外也包括多个具体的项目完整资料。
 
 <br>
-## 2	关于本项目AMY_M0O
+## 2	AMY/PODES_M0O项目
 一个SoC设计，无论多么简单，都要涉及到指令集设计、RTL代码开发、RTL仿真、FPGA硬件系统验证、编译器的开发/使用、嵌入式C程序开发、甚至操作系统的裁剪。正所谓麻雀虽小，五脏俱全。熟悉或者了解上述知识和相关的工具使用，有助于快速上手。
 <br><br>
 为了帮助个人学习者尽快上手，AMY/PODES-M0O已经做到了尽量简化。去掉了大量与实际ASIC实现相关的代码；在保留核心的前提下优化结构；尽量使用常见和易得的开发工具；编写精简的开发脚本；甚至提供一个完整的FPGA评估板。
@@ -24,17 +26,9 @@ PODES-M0O是一个经过专门精简优化的MCU CORE，定位于学习和研究
 ![AMY Block Diagram](https://sunyata000.github.io/images/AMY_diagram.png?raw=true "AMY block diagram") <br>
 
 AMY for M0O的结构如上图，构成一个PODES-M0O处理器内核的最小评估系统（相当于一个简单MCU芯片）。AMY的外围设备包括32bit GPIO、2个UART、1个IIC、一个键盘、1个STN、1个PWM。应用模式：IIC连接外部EEPROM/FLASH存储芯片；GPIO扩展应用；STN显示功能；KEYPAD输入；PWM电机驱动控制。
-<br><br>
-评估系统工作流程为：内建boot代码接收串口数据，写入内存或者IIC 接口的EEPROM芯片。硬件自动从内存/EEPROM芯片中读取代码，存入片内RAM然后运行。
-<br><br>
-本手册只关注PODES-M0O的应用。里面有相当多的地方涉及到PODES-M0O具体功能和结构的实现，都没有展开描述。读者若需要详细了解，可以参考下面的PODES-M0O设计手册：<br>
-**PODES-M0O应用用户手册:（本文档）**<br>
-*&emsp;PODES-M0O_Application_User_Manual_Vxx.doc*<br>
-**PODES-M0O设计实现用户手册：**<br>
-*&emsp;PODES-M0O_Implementation_User_Manual_Vxx.doc*<br>
-**PODES-M0O评估板用户手册：**<br>
-*&emsp;PODES_M0O_Evaluation_Board_User_Manual_Vxx.doc*
 <br>
+评估系统工作流程为：内建boot代码接收串口数据，写入内存或者IIC 接口的EEPROM芯片。硬件自动从内存/EEPROM芯片中读取代码，存入片内RAM然后运行。
+
 <br>
 <br>
 ## 3	支持和服务
@@ -48,33 +42,6 @@ www.mcucore.club
 
 <br>
 
-**项目赞助**
-<br>
-小额赞助、购买FPGA开发板、提供开发支持、甚至是一条建议或者评论，都是鼓舞PODES前行的动力。如果您有意赞助，请使用手机支付扫一扫下面的二维码：<br>
-     
-<center>
-    <img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="/images/wechat.jpg?raw=true">
-    <br>
-    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
-    display: inline-block;
-    color: #999;
-    padding: 2px;">微信赞赏</div>
-</center>
-<br>
-<center>
-    <img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="/images/alipay.jpg?raw=true">
-    <br>
-    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
-    display: inline-block;
-    color: #999;
-    padding: 2px;">支付宝赞赏</div>
-</center>
-
-<br><br>
 <br> 
 
 [back](https://sunyata000.github.io/index.html)
