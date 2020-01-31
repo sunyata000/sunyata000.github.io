@@ -8,18 +8,15 @@ PODES-M0O指令集设计参照ARMv6-M Architecture Reference Manual文档实现�
 PODES-M0O完全兼容Cortex-M0内核。为了更清楚地表明“兼容”的含义，下面不支持的Features，对比说明。
 
 - Debug功能不支持<br>
+内核评估可以不需要这个功能，ROM版本ASIC实现也不需要这个功能 <br>
 
-内核评估可以不需要这个功能，ROM版本ASIC实现也不需要这个功能。<br>
-
-- Hints指令不支持（SEV, WFI, WFE, YIELD）<br>
-
+- Hints指令不支持（SEV, WFI, WFE, YIELD） <br>
 这四条指令执行有标志信号引出，用户在低功耗或者多处理器设计中可以使用这些信号。如果代码中有这些指令，PODES-M0O会当成NOP执行。指令流水不会停止。<br>
 
-- Cortex –M0的可配置特性<br>
-
+- Cortex –M0的可配置特性 <br>
 PODES-M0O本身源代码开源，用户可以任意修改配置。没有必要提供功能配置选项，人为把代码搞复杂。<br>
 
-- 乘法器和加法器使用行为模型实现<br>
+- 乘法器和加法器使用行为模型实现 <br>
 ASIC综合或者FPGA综合可以直接调用工艺库提供的宏单元，或者用户自己设计结构化代码。<br>
 <br>
 
