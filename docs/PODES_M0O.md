@@ -20,7 +20,6 @@ PODES-M0O完全兼容Cortex-M0内核。为了更清楚地表明“兼容”的�
 PODES-M0O本身源代码开源，用户可以任意修改配置。没有必要提供功能配置选项，人为把代码搞复杂。<br>
 
 - 乘法器和加法器使用行为模型实现<br>
-
 ASIC综合或者FPGA综合可以直接调用工艺库提供的宏单元，或者用户自己设计结构化代码。<br>
 <br>
 
@@ -46,7 +45,6 @@ PODES-M0O提供AHBLite 总线接口、32个IRQ和1个NMI中断输入。外部功
 全部PODES-M0O代码都采用工艺无关的RTL描述(VerilogHDL-2001)，全部可综合并且经过面积优化。同时代码也具有较好的可读性。<br>
 模块层次结构如下图。<br>
 
-<br>
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
