@@ -45,7 +45,7 @@ AMY-M0O的结构如下图，构成一个PODES-M0O处理器内核的最小评估�
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
     color: #999;
-    padding: 2px;">PODES-M0O功能框图</div>
+    padding: 2px;">AMY-M0O功能框图</div>
 </center>
 <br>
 
@@ -60,7 +60,7 @@ AMY/PODES-M0O的结构设计为功能扩展做了特别优化，用户只需要�
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
     color: #999;
-    padding: 2px;">PODES-M0O功能扩展</div>
+    padding: 2px;">AMY-M0O功能扩展</div>
 </center>
 <br>
 
@@ -76,7 +76,7 @@ AMY/PODES-M0O的仿真验证包括: RTL行为仿真、汇编语言指令集仿�
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
     color: #999;
-    padding: 2px;">PODES-M0O项目结构</div>
+    padding: 2px;">AMY-M0O项目结构</div>
 </center>
 <br>
 
