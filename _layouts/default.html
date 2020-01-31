@@ -14,10 +14,11 @@
   </head>
   <body>
     <div class="wrapper">
-      <header>     
-        &emsp;<p> {{ site.title | default: site.github.repository_name }}</p>
+      <header style="text-align:center">     
+        <p> {{ site.title | default: site.github.repository_name }}</p>
+	<p>{{ site.description }}</p>
         <img src="{{site.logo | relative_url}}" alt="Logo" />
-        <p>{{ site.description }}</p>
+        
         <h2>   
 	   <a href="{{ "/" | absolute_url }}">首页</a>
 	   &emsp;<a href="/docs/about.html">关于</a>
