@@ -30,13 +30,12 @@ layout: default
 <br>
 
 ### 捐赠者
-我会不定期统计捐赠人的名单，放到网站这个页面（征得对方同意的条件下），表示感谢。
+我会不定期统计捐赠人的名单，放到网站这个页面（征得对方同意的条件下），表示感谢。<br>
 
-名单列表：
+名单列表：<br>
 <font color=#376956 face="cyan-blue">Amy-xxh</font>
-
 <font color=#376956 face="cyan-blue">macdir(Xikun)</font>
-
+<br>
 
 
 [back](https://sunyata000.github.io/index.html)
