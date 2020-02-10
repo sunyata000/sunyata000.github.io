@@ -33,8 +33,8 @@ layout: default
 我会不定期统计捐赠人的名单，放到网站这个页面（征得对方同意的条件下），表示感谢。<br>
 
 名单列表：<br>
-$\color{#376956}{Amy-xxh}$ <br>
-$\color{#376956}{macdir(Xikun)}$
+<font color=#376956 >Amy-xxh</font> <br>
+<font color=#376956 >macdir(Xikun)</font>  
 <br>
 
 
