@@ -20,7 +20,7 @@ PODES-M0O是一个经过专门精简优化的MCU CORE，定位于学习和研究
 <br><br>
 ## 项目资助
 这个开源项目是作者独立完成的，没有任何资金来源。欢迎资助这个项目。
-[More...](./docs/about.md)
+[More...](./docs/donate.md)
 <br><br>
 [back](https://sunyata000.github.io/index.html)
 
