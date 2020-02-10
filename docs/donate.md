@@ -36,9 +36,6 @@ layout: default
 **Amy-xxh**<br>
 **macdir(Xikun)**
 
-<font color=#376956 >Amy-xxh</font> 
-
-<font color=#376956 >macdir(Xikun)</font>  
 <br>
 
 
